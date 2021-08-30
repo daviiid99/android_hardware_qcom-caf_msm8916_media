@@ -143,13 +143,6 @@ omx_c2d_conv::~omx_c2d_conv()
 int omx_c2d_conv::get_src_format()
 {
     int format = -1;
-
-    if (src_format == NV12_2K) {
-        format = HAL_PIXEL_FORMAT_NV12_ENCODEABLE;
-    } else if (src_format == RGBA8888) {
-        format = HAL_PIXEL_FORMAT_RGBA_8888;
-    }
-
     return format;
 }
 bool omx_c2d_conv::get_buffer_size(int port,unsigned int &buf_size)
