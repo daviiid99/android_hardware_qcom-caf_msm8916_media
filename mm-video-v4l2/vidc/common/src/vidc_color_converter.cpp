@@ -29,7 +29,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define LOG_TAG "OMX_C2D"
 
 #include <utils/Log.h>
-#include <gralloc_priv.h>
+#include "gralloc_priv.h"
 #include "vidc_color_converter.h"
 #include "vidc_debug.h"
 
