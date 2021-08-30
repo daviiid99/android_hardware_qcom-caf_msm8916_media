@@ -44,7 +44,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #ifdef _ANDROID_
 #include <media/hardware/HardwareAPI.h>
-#include <gralloc_priv.h>
+#include "gralloc_priv.h"
 #endif
 
 #include <qdMetaData.h>
